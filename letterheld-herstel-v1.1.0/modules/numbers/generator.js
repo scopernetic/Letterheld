@@ -1,0 +1,1 @@
+import {choices} from '../../js/core/utils.js';export function generateNumberQuestion(params={},rng=Math.random){const max=params.maxNumber??10,target=Math.floor(rng()*(max+1)),pool=Array.from({length:max+1},(_,i)=>i);return{target,choices:choices(target,pool,params.choices||3,rng),say:`Duid het getal ${target} aan`}}

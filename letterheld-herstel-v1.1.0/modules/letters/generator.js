@@ -1,0 +1,1 @@
+import {LETTERS,CONFUSIONS} from './data.js';import {choices} from '../../js/core/utils.js';export function generateLetterQuestion(params={},rng=Math.random){const target=LETTERS[Math.floor(rng()*LETTERS.length)];const preferred=[...(CONFUSIONS[target]||''),...LETTERS];return{target,choices:choices(target,preferred,params.choices||3,rng),say:`Duid de letter ${target} aan`}}

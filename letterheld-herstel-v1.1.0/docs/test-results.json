@@ -1,0 +1,26 @@
+{
+  "version": "1.1.0",
+  "javascriptSyntax": {
+    "checked": 32,
+    "passed": 32
+  },
+  "nodeTests": {
+    "passed": 26,
+    "failed": 0,
+    "command": "npm test"
+  },
+  "htmlParser": "passed",
+  "httpAssets": {
+    "checked": 37,
+    "passed": 37,
+    "status": 200
+  },
+  "browserAutomation": {
+    "executed": false,
+    "reason": "Geen Chromium, Chrome, Firefox of browserbinary beschikbaar in de sandbox"
+  },
+  "repairsDuringTest": [
+    "change-delegatie voor afzonderlijke modulemoeilijkheid toegevoegd",
+    "veilige structuredClone-featuredetectie toegevoegd"
+  ]
+}
